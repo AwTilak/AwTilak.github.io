@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151719;
+}
+
+.about {
+    margin: 5.5rem auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: none;
+}
+
+.main {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5rem;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* border-bottom: 2px solid red; */
+}
+
+
+
+.des-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    margin: 3rem 0;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.des {
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yourself p {
+    font-size: 1rem;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer {
+    font-size: 1.07rem;
+    color: #fff;
+}
+
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 180px;
+    height: 60px;
+}
+
+.btn {
+    position: relative;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #6759ff;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #6759ff;
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.social-container {
+    width: 400px;
+    margin: 10vh auto;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper li a {
+    text-decoration: none;
+    margin: 0.5rem .7rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+ion-icon.facebook {
+    font-size: 2rem;
+    color: #1877F2;
+    z-index: 1;
+}
+
+
+ion-icon.twitter {
+    font-size: 2rem;
+    color: #1DA1F2;
+}
+
+ion-icon.instagram {
+    font-size: 2rem;
+    color: #E4405F;
+}
+
+.btn-container {
+    display: block;
+    margin-top: 2rem;
+}
